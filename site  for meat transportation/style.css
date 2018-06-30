@@ -1,0 +1,127 @@
+/*======Body=================================================*/
+body{
+	background-image: url("fon.png") ;
+	background-repeat: repeat-auto ;
+}
+
+/*======header===============================================*/
+.Header{
+	position:absolute;
+	background-color:#741500;
+	padding:15px 10px;
+	margin:0px 400px ;
+	border:solid 1px #dcfbf9 ;
+	border-radius: 0px 0 50px 50px;
+	box-shadow: 0 5px 10px ;
+}
+.line{
+	margin: 10px 0 0 0px;
+	border: solid 2px black;
+}
+
+.line1{
+	padding: 1px;
+	margin: 0 0 0 10px;
+	border: solid 2px black;
+}
+
+  p {
+    font-family: "Century Gothic", sans-serif;
+   }
+
+h1{
+	text-indent: 20px;
+	font-size: 24px;
+	font-family:impact;
+}
+
+/*======phone==================*/
+.phone  {
+	position:absolute;
+	top:20px;
+	right:0px;
+	padding:5px;
+}
+.phone ul li{
+	list-style-type: square; 
+}
+.parts{
+
+		position:absolute;
+	top:600px;
+	left: 300px;
+	right:0px;
+	padding:5px;
+}
+/*======logo===================*/
+.logo  img{
+	position: relative;
+	background-position:10px auto ;
+	height:80px;
+	width:100px;
+}
+.bigPhoto img{
+
+width: 400px;
+height: 300px;
+}
+.potos ul li  {
+list-style-type: none;
+}
+.small img{
+display:inline-block;
+width: 130px;
+height:100px;
+}
+img
+{
+	height: 200px;
+	width: 150px;
+}
+.about {
+	list-style-type:none;
+	position:absolute;
+	top:300px;
+	left: 150px;
+	right:0px;
+}
+
+/*======menu====================================================*/
+.menu ul li {
+	display: inline-block;
+	margin: 2px 2px 4px 4px;
+	text-indent: 10px;
+	padding: 10px 20px;
+	border: solid #d2d2d2;
+	background-color: gray;
+	border-radius:  40px 10px;
+}
+a{
+	color: black;
+	text-decoration: none;
+}
+
+ .menu ul li:hover{
+	  box-shadow: 0 0 32px ;
+	  background-color: #c28078;
+}
+.active{
+	font-family: papyrus, fantesy;
+	font-size: 32px;
+}
+
+
+/*======footer===================================================*/
+.footer {
+
+border-radius: 15em/5em;
+border:solid 1px #B8B8B8;
+background-color:#ffbfBf;
+padding: 0px 15px;
+}
+.media a{
+	color: blue;
+	display: block;
+	text-decoration: underline;
+	margin:   2px 2px 4px;
+}
